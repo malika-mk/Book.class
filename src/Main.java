@@ -5,7 +5,7 @@ public class Main {
         book.dispayInfo();
         Book book2 = new Book("wrt", "e", 34, 45);
         book2.dispayInfo();
-        Book book3 = new Book("srg", "srg", 345, 45);
+        Book book3 = new Book("dfadf", "srg", 345, 45);
         book3.dispayInfo();
 
     }

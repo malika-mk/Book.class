@@ -19,5 +19,13 @@ public class Book{
         System.out.println("Book price: " + price);
     }
 
-
+    public double calculateDiscountPrice(double discountPercentage) {
+        if (discountPercentage < 0 || discountPercentage > 100) {
+            System.out.println("Invalid discount percentage");
+            return price;
+        }
+        return price - (price * discountPercentage / 100);
+    }
 }
+
+
